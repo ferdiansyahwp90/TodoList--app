@@ -7,12 +7,11 @@ use App\Traits\ApiResponse;
 use Illuminate\Http\Request;
 use App\Http\Requests\LoginRequest;
 use App\Http\Requests\RegisterRequest;
-use App\Http\Requests\HttpResponceException;
+use Illuminate\Http\Requests\HttpResponceException;
 use App\Models\User;
 use Illuminate\Http\Response;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Hash;
-
 
 class AuthController extends Controller
 {
